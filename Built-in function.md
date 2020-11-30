@@ -18,3 +18,28 @@
 >
 > Dictionary의 경우 key값의 참, 거짓을 판단하여 반환
 
+
+
+### any(iterable)
+
+> iterable의 요소 중 어느 하나라도 참이면 `True`를 반환
+>
+> iterable이 비어 있으면 `False`를 반환
+
+
+
+### bin(x)
+
+> 정수를 `0b`가 앞에 붙은 이진 문자열로 반환
+
+```python
+# 접두어 0b 필요할 경우
+bin(x)
+format(x, "#b")
+f"{x:#b}"
+
+# 접두어 0b 필요없을 경우
+format(x, 'b')
+f"{x:b}"
+```
+
