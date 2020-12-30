@@ -2,7 +2,7 @@
 
 
 
-### gcd()
+### .gcd(integers)
 
 > 지정된 정수 인자의 최대 공약수를 반환
 >
@@ -10,13 +10,9 @@
 >
 > 모든 인자가 0이거나, 인자가 없는 gcd()는 0을 반환
 
-```python
-from math import gcd
-```
 
 
-
-### lcm()
+### .lcm(integers)
 
 > 지정된 정수 인자의 최소 공배수를 반환
 >
@@ -26,7 +22,22 @@ from math import gcd
 >
 > 인자가 없는 lcm()은 1을 반환
 
-```python
-from math import lcm
-```
 
+
+### .pow(x, y)
+
+> x의 y 거듭제곱을 float형으로 반환
+>
+> `**`의 경우 int형으로 반환
+
+
+
+### .sqrt(x)
+
+> x의 제곱근을 반환
+
+
+
+### .trunc(x)
+
+> 실제값 x를 정수로 자른 값을 반환
