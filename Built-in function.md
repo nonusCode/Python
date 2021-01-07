@@ -63,3 +63,6 @@ f"{x:b}"
 >
 > base는 0, 2 ~ 36 사이의 값
 
+
+
+### filter(function, iterable)
