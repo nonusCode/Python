@@ -2,19 +2,20 @@
 
 ```python
 import collections
+from collections import
 ```
 
 
 
-### collections.Counter()
+### .Counter()
 
 > 요소가 key로 저장되고 요소의 개수가 value로 저장
 >
 > Dictionary로 반환
 
-#### 
 
-### collections.defaultdict()
+
+### .defaultdict()
 
 > 내장 dict 클래스의 서브 클래스
 >
