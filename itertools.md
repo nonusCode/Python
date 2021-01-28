@@ -30,3 +30,18 @@ res.extend(sol)
 print(res) # [(1, 2, 3), (1, 2, 4), (1, 2, 5), (1, 3, 4), (1, 3, 5), (1, 4, 5), (2, 3, 4), (2, 3, 5), (2, 4, 5), (3, 4, 5)]
  ```
 
+
+
+### .zip_longest(iterable, fillvalue=None)
+
+> iterable의 길이가 고르지 않으면, 누락된 값을 fillvalue로 채움
+
+```python
+from itertools import zip_longest
+
+# 모든 값 출력
+res = zip_longest(arr)
+for i in res:
+    print(''.join(filter(None, i)))
+```
+
