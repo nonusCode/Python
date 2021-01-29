@@ -66,3 +66,9 @@ f"{x:b}"
 
 
 ### filter(function, iterable)
+
+
+
+### float(x)
+
+> 숫자 또는 문자열 x로 부터 실수를 반환
