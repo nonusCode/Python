@@ -71,3 +71,27 @@
 * vscode-icons
 
   > 파일 아이콘을 보기 쉽게 바꾸어줌
+
+
+
+### 환경설정
+
+> Python `4 Space` 들여쓰기
+>
+> HTML/CSS `2 Space` 들여쓰기
+
+1. `Ctrl + Shift + p` 키를 눌러 `Preference: Open settings(JSON)` 검색
+
+2. `4 Space`가 Default 값이기 때문에 다음과 같이 추가
+
+   ```json
+   {
+   	"[html]": {
+       "editor.tabSize": 2,
+       },
+       "[css]": {
+       "editor.tabSize": 2,
+       },
+   }
+   ```
+
