@@ -86,7 +86,7 @@
 
    ```json
    {
-   	"[html]": {
+       "[html]": {
        "editor.tabSize": 2,
        },
        "[css]": {
