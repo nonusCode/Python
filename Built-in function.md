@@ -53,6 +53,16 @@ f"{x:b}"
 
 
 
+### filter(function, iterable)
+
+
+
+### float(x)
+
+> 숫자 또는 문자열 x로 부터 실수를 반환
+
+
+
 ### int(x, base)
 
 > 숫자나 문자열 x로 부터 만들어진 정수 객체 반환
@@ -65,10 +75,8 @@ f"{x:b}"
 
 
 
-### filter(function, iterable)
+### pow(base, exp[, mod])
 
-
-
-### float(x)
-
-> 숫자 또는 문자열 x로 부터 실수를 반환
+> base의 exp 거듭제곱을 반환, `base ** exp`와 같음
+>
+> mod가 있는 경우, base의 exp거듭제곱의 나머지를 반환, `pow(base, exp) % mod`보다 빠름
