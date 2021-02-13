@@ -80,3 +80,13 @@ f"{x:b}"
 > base의 exp 거듭제곱을 반환, `base ** exp`와 같음
 >
 > mod가 있는 경우, base의 exp거듭제곱의 나머지를 반환, `pow(base, exp) % mod`보다 빠름
+
+
+
+### sorted(iterable[, key=None, reverse=False])
+
+> iterable의 항목들로 새 정렬된 리스트를 반환
+>
+> key는 하나의 인자를 받는 함수를 지정, iterable의 각 요소들로부터 비교 키를 추출
+>
+> reverse는 내림차순 정렬
