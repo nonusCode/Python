@@ -23,3 +23,16 @@ def func(x):
 func(y)
 ```
 
+
+
+### Default
+
+```python
+# 함수 정의
+def func(x=3)
+	retrun x
+
+# 함수 호출
+print(func()) # 3
+```
+
