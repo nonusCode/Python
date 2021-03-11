@@ -34,3 +34,10 @@ sorted(dict.items(), key=operator.itemgetter(1, 0))
 
   > 여러가지 값을 추가
 
+* remove(x)
+
+  > `x`를 `set`에서 삭제, `x`가 없을 시 `KeyError` 발생
+
+* discard(x)
+
+  > `x`를 `set`에서 삭제, `x`가 없을 시 `KeyError` 발생 x
