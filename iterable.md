@@ -22,3 +22,15 @@ sorted(dict.items(), key=operator.itemgetter(1), reverse=True)
 sorted(dict.items(), key=operator.itemgetter(1, 0))
 ```
 
+
+
+### Set
+
+* add(x)
+
+  > `x`를 `set`에 추가
+
+* update(iterable)
+
+  > 여러가지 값을 추가
+
