@@ -30,6 +30,10 @@ sorted(dict.items(), key=operator.itemgetter(1, 0))
 
   > `x`를 `set`에 추가
 
+* clear()
+
+  > 모든 항목 제거
+
 * update(iterable)
 
   > 여러가지 값을 추가
@@ -41,3 +45,9 @@ sorted(dict.items(), key=operator.itemgetter(1, 0))
 * discard(x)
 
   > `x`를 `set`에서 삭제, `x`가 없을 시 `KeyError` 발생 x
+
+* pop()
+
+  > 한 항목을 무작위로 제거하고 그 항목을 반환
+  >
+  > `set`이 비어있을 경우 `KeyError` 발생
