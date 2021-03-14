@@ -32,6 +32,18 @@ sorted(dict.items(), key=operator.itemgetter(1, 0))
 
 > 순서가 정해지지 않고, 중복을 허용하지 않는 집합을 의미
 
+* &
+
+  > 교집합
+
+* |
+
+  > 합집합
+
+* -
+
+  > 차집합
+
 * add(x)
 
   > `x`를 `set`에 추가
