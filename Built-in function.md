@@ -53,6 +53,12 @@ f"{x:b}"
 
 
 
+### eval(expression[, globals[, loacal]])
+
+> expression(식)을 문자열로 받아서 계산 후 값을 반환
+
+
+
 ### filter(function, iterable)
 
 
