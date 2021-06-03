@@ -53,6 +53,22 @@ f"{x:b}"
 
 
 
+### enumerate(iterable, start=0)
+
+> 열거 객체를 튜플로 반환
+
+```python
+S = ['A', 'B', 'C']
+for i in enumerate(S):
+    print(i)
+    
+# (0, 'A')
+# (1, 'B')
+# (2, 'C')
+```
+
+
+
 ### eval(expression[, globals[, loacal]])
 
 > expression(식)을 문자열로 받아서 계산 후 값을 반환
