@@ -69,3 +69,15 @@ sorted(dict.items(), key=operator.itemgetter(1, 0))
   > 한 항목을 무작위로 제거하고 그 항목을 반환
   >
   > `set`이 비어있을 경우 `KeyError` 발생
+
+
+
+### String
+
+* upper()
+
+  > 문자열 내부에 모든 알파벳을 대문자로 반환
+
+* lower()
+
+  > 문자열 내부에 모든 알파벳을 소문자로 반환
